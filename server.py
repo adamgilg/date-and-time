@@ -1,3 +1,5 @@
+#responds to SMS message with sunset or sunrise times for San Francisco.
+#user can choose sunset or sunrise by texting a message including the word 'sunset' or 'sunrise in the body.
 from flask import Flask, request, redirect
 import twilio.twiml
 import requests
